@@ -36,6 +36,8 @@ import {
   RiYoutubeLine,
 } from "react-icons/ri";
 
+import { AboutItem } from "@/types";
+
 export const NAV_ITEMS = [
   { name: "home", path: "/", icon: HiHome },
   { name: "about", path: "/about", icon: HiUser },
@@ -49,7 +51,7 @@ export const NAV_ITEMS = [
   { name: "contact", path: "/contact", icon: HiEnvelope },
 ];
 
-export const ABOUT_DATA = [
+export const ABOUT_DATA: AboutItem[] = [
   {
     title: "skills",
     info: [
