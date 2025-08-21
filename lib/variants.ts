@@ -16,7 +16,7 @@ export const fadeIn = (
       type: "tween",
       duration: 1.5,
       delay,
-      easing: [0.25, 0.6, 0.3, 0.8],
+      ease: [0.25, 0.6, 0.3, 0.8],
     } as Transition,
   },
   show: {
@@ -27,7 +27,22 @@ export const fadeIn = (
       type: "tween",
       duration: 1.4,
       delay,
-      easing: [0.25, 0.25, 0.25, 0.75],
+      ease: [0.25, 0.25, 0.25, 0.75],
     } as Transition,
   },
 });
+
+export const rectangleVariants = {
+  initial: {
+    x: "100%",
+    width: "100%",
+  },
+  animate: {
+    x: "0%",
+    width: "0%",
+  },
+  exit: {
+    x: ["0%", "100%"],
+    width: ["0%", "100%"],
+  },
+};

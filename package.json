@@ -9,6 +9,7 @@
     "lint": "eslint"
   },
   "dependencies": {
+    "@vercel/analytics": "^1.5.0",
     "class-variance-authority": "^0.7.1",
     "clsx": "^2.1.1",
     "lucide-react": "^0.540.0",
@@ -18,11 +19,11 @@
     "react-countup": "^6.5.3",
     "react-dom": "19.1.0",
     "react-icons": "^5.5.0",
-    "react-tsparticles": "^2.12.2",
+    "react-tsparticles": "^2.9.3",
     "swiper": "^11.2.10",
     "tailwind-merge": "^3.3.1",
     "tailwind-scrollbar": "^4.0.2",
-    "tsparticles": "^3.9.1"
+    "tsparticles": "^2.9.3"
   },
   "devDependencies": {
     "@eslint/eslintrc": "^3",

@@ -1,9 +1,12 @@
 import type { Metadata } from "next";
 import { Poppins, Sora } from "next/font/google";
+import { Analytics } from "@vercel/analytics/next";
 
 import { Nav } from "@/components/nav";
 import { Header } from "@/components/header";
 import { TopLeftImage } from "@/components/top-left-image";
+import { PageTransition } from "@/components/page-transition";
+import { RectangleTransition } from "@/components/rectangle-transition";
 
 import "./globals.css";
 
@@ -37,9 +40,11 @@ export default function RootLayout({
     <html lang="en">
       <body className={`${poppins.variable} ${sora.variable} antialiased`}>
         <TopLeftImage />
-        <Nav />
         <Header />
-        {children}
+        <RectangleTransition />
+        <Nav />
+        <PageTransition>{children}</PageTransition>
+        <Analytics />
       </body>
     </html>
   );

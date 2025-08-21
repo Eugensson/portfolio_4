@@ -7,6 +7,7 @@ export const TopLeftImage = () => {
         src="/assets/top-left-img.png"
         width={400}
         height={400}
+        priority
         alt="Top Left Background Image"
       />
     </div>

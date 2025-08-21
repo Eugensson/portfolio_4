@@ -1,11 +1,23 @@
 import type { Metadata } from "next";
+import * as motion from "motion/react-client";
 
 export const metadata: Metadata = {
   title: "About",
 };
 
 const About = () => {
-  return <section>About</section>;
+  return (
+    <motion.section
+      initial={{ opacity: 0 }}
+      animate={{
+        opacity: 1,
+        transition: { delay: 0.6, duration: 0.4, ease: "easeIn" },
+      }}
+      className="h-screen flex items-center"
+    >
+      About
+    </motion.section>
+  );
 };
 
 export default About;
