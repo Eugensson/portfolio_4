@@ -34,15 +34,11 @@
 
 /* === Global Styles === */
 body {
-  @apply font-poppins bg-secondary text-white overflow-hidden leading-relaxed;
+  @apply w-full h-screen overflow-hidden relative font-poppins bg-site bg-no-repeat bg-cover bg-center text-white leading-relaxed;
 }
 
 .container {
   @apply px-[15px] mx-auto max-w-300 h-full;
-}
-
-.page {
-  @apply w-full h-screen overflow-hidden;
 }
 
 .h1 {

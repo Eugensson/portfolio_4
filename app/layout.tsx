@@ -1,6 +1,10 @@
 import type { Metadata } from "next";
 import { Poppins, Sora } from "next/font/google";
 
+import { Nav } from "@/components/nav";
+import { Header } from "@/components/header";
+import { TopLeftImage } from "@/components/top-left-image";
+
 import "./globals.css";
 
 const poppins = Poppins({
@@ -18,7 +22,7 @@ const sora = Sora({
 export const metadata: Metadata = {
   title: {
     default: "Ethan Smith Portfolio",
-    template: "%s | Ethan Smith Portfolio",
+    template: "%s - Ethan Smith Portfolio",
   },
   description:
     "Explore Ethan Smith's professional portfolio showcasing modern web development, creative design, and innovative digital solutions. Discover projects, skills, and achievements crafted with expertise and passion.",
@@ -32,6 +36,9 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`${poppins.variable} ${sora.variable} antialiased`}>
+        <TopLeftImage />
+        <Nav />
+        <Header />
         {children}
       </body>
     </html>
