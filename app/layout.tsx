@@ -40,8 +40,8 @@ export default function RootLayout({
     <html lang="en">
       <body className={`${poppins.variable} ${sora.variable} antialiased`}>
         <TopLeftImage />
-        <Header />
         <RectangleTransition />
+        <Header />
         <Nav />
         <PageTransition>{children}</PageTransition>
         <Analytics />

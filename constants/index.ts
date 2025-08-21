@@ -27,6 +27,14 @@ import {
   RxReader,
   RxRocket,
 } from "react-icons/rx";
+import {
+  RiBehanceLine,
+  RiDribbbleLine,
+  RiFacebookLine,
+  RiInstagramLine,
+  RiPinterestLine,
+  RiYoutubeLine,
+} from "react-icons/ri";
 
 export const NAV_ITEMS = [
   { name: "home", path: "/", icon: HiHome },
@@ -182,5 +190,38 @@ export const SERVICES_DATA = [
     icon: RxRocket,
     title: "SEO",
     description: "Smart SEO strategies that improve ranking and visibility.",
+  },
+];
+
+export const SOCIALS_DATA = [
+  {
+    label: "Youtube",
+    link: "https://www.youtube.com",
+    icon: RiYoutubeLine,
+  },
+  {
+    label: "Facebook",
+    link: "https://facebook.com",
+    icon: RiFacebookLine,
+  },
+  {
+    label: "Instagram",
+    link: "https://www.instagram.com",
+    icon: RiInstagramLine,
+  },
+  {
+    label: "Dribbble",
+    link: "https://www.dribbble.com",
+    icon: RiDribbbleLine,
+  },
+  {
+    label: "Behance",
+    link: "https://www.behance.net",
+    icon: RiBehanceLine,
+  },
+  {
+    label: "Pinterest",
+    link: "https://www.pinterest.com",
+    icon: RiPinterestLine,
   },
 ];
