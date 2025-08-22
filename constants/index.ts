@@ -126,18 +126,18 @@ export const WORK_DATA = {
   slides: [
     {
       images: [
-        { title: "title", path: "/assets/thumb1.jpg" },
-        { title: "title", path: "/assets/thumb2.jpg" },
-        { title: "title", path: "/assets/thumb3.jpg" },
-        { title: "title", path: "/assets/thumb4.jpg" },
+        { title: "title 1", path: "/assets/thumb1.jpg" },
+        { title: "title 2", path: "/assets/thumb2.jpg" },
+        { title: "title 3", path: "/assets/thumb3.jpg" },
+        { title: "title 4", path: "/assets/thumb4.jpg" },
       ],
     },
     {
       images: [
-        { title: "title", path: "/assets/thumb4.jpg" },
-        { title: "title", path: "/assets/thumb1.jpg" },
-        { title: "title", path: "/assets/thumb2.jpg" },
-        { title: "title", path: "/assets/thumb3.jpg" },
+        { title: "title 5", path: "/assets/thumb4.jpg" },
+        { title: "title 6", path: "/assets/thumb1.jpg" },
+        { title: "title 7", path: "/assets/thumb2.jpg" },
+        { title: "title 8", path: "/assets/thumb3.jpg" },
       ],
     },
   ],
