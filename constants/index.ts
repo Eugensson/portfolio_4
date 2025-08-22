@@ -146,24 +146,24 @@ export const WORK_DATA = {
 export const TESTIMONIALS_DATA = [
   {
     image: "/assets/t-avt-1.png",
-    name: "Anne Smith",
-    position: "Customer",
+    name: "Emily Carter",
+    position: "Startup Founder",
     message:
-      "Choosing this gym was the best decision I made for my health. The trainers are motivating, the equipment is modern, and every session feels rewarding.",
+      "Working with this developer was seamless. He transformed our concept into a polished product with clean code, intuitive design, and excellent attention to detail.",
   },
   {
     image: "/assets/t-avt-2.png",
-    name: "Jane Doe",
-    position: "Customer",
+    name: "Michael Johnson",
+    position: "Agency Project Manager",
     message:
-      "I love the supportive community and the variety of classes offered. Each workout is exciting, and I feel stronger, healthier, and more confident every week.",
+      "Reliable, creative, and communicative throughout the process. Every task was delivered on time, and the end result exceeded our expectations both technically and visually.",
   },
   {
     image: "/assets/t-avt-3.png",
-    name: "John Doe",
-    position: "Customer",
+    name: "Sophia Lee",
+    position: "E-commerce Owner",
     message:
-      "The personalized approach really makes a difference. Friendly staff, clean facilities, and a focus on progress keep me motivated to reach my fitness goals.",
+      "He rebuilt our online store with performance and user experience in mind. Sales improved, the site loads fast, and customers love the new design.",
   },
 ];
 
