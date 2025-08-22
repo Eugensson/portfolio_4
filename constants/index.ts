@@ -171,7 +171,7 @@ export const SERVICES_DATA = [
   {
     icon: RxCrop,
     title: "Branding",
-    description: "We create unique brand strategies that strengthen identity.",
+    description: "I create unique brand strategies that strengthen identity.",
   },
   {
     icon: RxPencil2,
@@ -181,7 +181,7 @@ export const SERVICES_DATA = [
   {
     icon: RxDesktop,
     title: "Development",
-    description: "Custom web development focused on speed, scale, and growth.",
+    description: "Custom webdev focused on speed, scale, and growth.",
   },
   {
     icon: RxReader,
