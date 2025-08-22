@@ -59,7 +59,7 @@ p {
 }
 
 .input {
-  @apply w-full h-13 rounded-lg pl-6 capitalize;
+  @apply w-full h-13 rounded-lg pl-6;
 }
 
 .input,
@@ -68,7 +68,7 @@ p {
 }
 
 .textarea {
-  @apply w-full h-45 p-6 capitalize rounded-lg resize-none;
+  @apply w-full h-45 p-6 rounded-lg resize-none;
 }
 
 .translate-z-0 {
